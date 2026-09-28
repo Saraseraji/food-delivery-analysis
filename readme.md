@@ -12,7 +12,7 @@ The main focus is on understanding how delivery performance varies across traffi
 
 ## Business Problem
 
-Food delivery operations have experienced increasing delivery times and customer complaints. The objective of this project is to analyze delivery data and identify operational patterns associated with longer delivery times and delayed orders.
+Food delivery operations have experienced increasing delivery times and customer complaints. The objective is to analyze delivery data and identify operational patterns associated with longer delivery times and delayed orders.
 
 The analysis focuses on three main areas:
 
@@ -147,13 +147,13 @@ The hour of the order was extracted from `Time_Orderd`.
 
 Orders were categorized into the following time periods:
 
-| Time        | Category    |
-| ----------- | ----------- |
-| 08:00–11:59 | Morning     |
-| 12:00–14:59 | Lunch Peak  |
-| 15:00–16:59 | Afternoon   |
-| 17:00–21:59 | Dinner Rush |
-| 22:00–23:59 | Night       |
+| **Time**    | **Category** |
+| ----------- | ------------ |
+| 08:00–11:59 | Morning      |
+| 12:00–14:59 | Lunch Peak   |
+| 15:00–16:59 | Afternoon    |
+| 17:00–21:59 | Dinner Rush  |
+| 22:00–23:59 | Night        |
 
 ### Delayed Orders
 
@@ -239,7 +239,7 @@ The dashboard includes:
 
 ### Dashboard Screenshot
 
-![Delivery Operations & Delay Dashboard](delivery_dashboard.png)
+![Delivery Operations & Delay Dashboard](images/delivery_dashboard.png)
 
 ### Tableau Public
 
@@ -252,14 +252,14 @@ The dashboard includes:
 ```text
 food-delivery-analysis/
 │
-├── README.md
+├── images/
+│   └── delivery_dashboard.png
+├── readme.md
 ├── food_delivery_analysis.ipynb
 ├── train.csv
 ├── delivery_cleaned.csv
-├── delivery_dashboard.png
 ├── Food Delivery.pdf
-├── food delivery tableau.twbx
-└── ~food delivery tableau__9240.twbr
+└── food delivery tableau.twbx
 ```
 
 ---
