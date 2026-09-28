@@ -147,13 +147,13 @@ The hour of the order was extracted from `Time_Orderd`.
 
 Orders were categorized into the following time periods:
 
-| **Time**    | **Category** |
-| ----------- | ------------ |
-| 08:00–11:59 | Morning      |
-| 12:00–14:59 | Lunch Peak   |
-| 15:00–16:59 | Afternoon    |
-| 17:00–21:59 | Dinner Rush  |
-| 22:00–23:59 | Night        |
+| Time        | Category    |
+| ----------- | ----------- |
+| 08:00–11:59 | Morning     |
+| 12:00–14:59 | Lunch Peak  |
+| 15:00–16:59 | Afternoon   |
+| 17:00–21:59 | Dinner Rush |
+| 22:00–23:59 | Night       |
 
 ### Delayed Orders
 
@@ -239,7 +239,7 @@ The dashboard includes:
 
 ### Dashboard Screenshot
 
-![Delivery Operations & Delay Dashboard](images/delivery_dashboard.png)
+![Delivery Operations & Delay Dashboard](image/delivery_dashboard.png)
 
 ### Tableau Public
 
@@ -252,7 +252,7 @@ The dashboard includes:
 ```text
 food-delivery-analysis/
 │
-├── images/
+├── image/
 │   └── delivery_dashboard.png
 ├── readme.md
 ├── food_delivery_analysis.ipynb
