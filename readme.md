@@ -243,7 +243,11 @@ The dashboard includes:
 
 ### Tableau Public
 
-> Tableau Public link will be added here.
+### Tableau Dashboard
+
+The Tableau dashboard is included in this repository as `food delivery tableau.twbx`.
+
+The Tableau Public link will be added once the dashboard is published online.
 
 ---
 
